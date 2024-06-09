@@ -1,0 +1,10 @@
+.env
+tests/
+logs/
+.idea/
+.vscode/
+.VSCodeCounter/
+__pycache__/
+
+datas/
+models/
