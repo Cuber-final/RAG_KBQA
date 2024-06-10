@@ -2,6 +2,8 @@ from langchain.text_splitter import CharacterTextSplitter
 import re
 from typing import List
 
+# 使用语义分割模型进行文档语义切分
+
 
 class AliTextSplitter(CharacterTextSplitter):
     def __init__(self, pdf: bool = False, **kwargs):

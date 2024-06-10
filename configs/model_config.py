@@ -5,8 +5,6 @@ import uuid
 from models import embedding_models, llm_models
 
 embedding_model_dict = {
-    "ernie-tiny": "nghuyong/ernie-3.0-nano-zh",
-    "ernie-base": "nghuyong/ernie-3.0-base-zh",
     "text2vec-base": "shibing624/text2vec-base-chinese",
     "text2vec": "GanymedeNil/text2vec-large-chinese",
     "bge": embedding_models["bge"],
@@ -123,12 +121,8 @@ BING_SUBSCRIPTION_KEY = ""
 
 SUPPORT_AGENT_MODEL = [
     "openai-api",  # GPT4 模型
-    "qwen-api",  # Qwen Max模型
     "zhipu-api",  # 智谱AI GLM4模型
     "Qwen",  # 所有Qwen系列本地模型
-    "chatglm3-6b",
-    "internlm2-chat-20b",
-    "Orion-14B-Chat-Plugin",
 ]
 
 Agent_MODEL = None
